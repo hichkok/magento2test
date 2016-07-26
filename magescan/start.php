@@ -13,10 +13,12 @@ $checks = array(
 $head = 'domain,5344,5994,6285,6482,6788,7405,sitemap,version,unprotectedpaths' . PHP_EOL;
 $fp = fopen('scan.csv', 'a+');
 fwrite($fp, $head);
-
+$counter234=0;
 
 
 foreach ($domains as $domain) {
+	$counter234++;
+	echo $counter234;
     $row = $domain . ',';
     echo 'Starting: ' . $domain . PHP_EOL;
     foreach ($checks as $key => $check) {

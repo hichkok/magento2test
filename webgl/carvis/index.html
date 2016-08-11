@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Language</title>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+        <link rel="stylesheet" href="boilerplate.css" />
+        <link rel="stylesheet" href="Page.css" />
+
+        <style>
+
+            #ThreeJS {z-index:14;position: absolute; left:0px; top:0px;overflow:hidden;}
+            #primaryContainer {z-index:14;}
+            #Transit {z-index:15; position: absolute;left:0px; top:0px; width: 100%; height: 100%;
+                background-color: #000000; opacity: 1; display:block;line-height: 0.9;}
+            #CompanyName {color: #cccccc; font-size: 200px; text-align: center; padding-top: 140px; font-family: "Cambria", serif;}
+            #Loading {color: #cccccc; font-size: 90px; text-align: center; font-family: "Cambria", serif;}
+            body{margin: 0px;overflow: hidden;}
+
+        </style>
+
+    </head>
+    <body>
+
+        <div id="ThreeJS"></div>
+
+        <div id="Transit"><p id="CompanyName">P&P</p><br><p id="Loading">Loading...</p></div>
+
+        <div id="Stage" class="main_menu"></div>
+
+        <div id="primaryContainer" class="primaryContainer clearfix">
+            <div id="box" class="clearfix">
+                <div id="colorDiv" class="clearfix">
+                    <p id="text">colors:</p>
+                    <img id="imageOrange" src="img/orange.jpg" class="image" />
+                    <img id="imageGray" src="img/gray.jpg" class="image" />
+                    <img id="imageRed" src="img/red.jpg" class="image" />
+                    <img id="imageBlack" src="img/black.jpg" class="image" />
+                </div>
+                <div id="viewDiv" class="clearfix">
+                    <p id="text1">view:</p>
+                    <p id="viewText">inside</p>
+                </div>
+                <div id="cameraDiv" class="clearfix">
+                    <p id="text3">camera:</p>
+                    <p id="cameraText">free</p>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="three.min.js"></script>
+
+        <script>
+            var mainScript = new PANDP.MainScript();
+            mainScript.initialize();
+        </script>
+
+    </body>
+</html>

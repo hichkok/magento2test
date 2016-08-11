@@ -1,0 +1,159 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-image:url("img/background.jpg");
+    background-attachment: scroll;
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+    background-position: 0% 0%;
+    background-repeat: no-repeat repeat;
+}
+
+#box {
+    float: left;
+    height: 100px;
+    margin-left: 0px;
+    margin-top: 30px;
+    clear: none;
+    width: 100%;
+    min-width: 0px;
+    background-color: rgba(16, 16, 16, 0.862745);
+    box-shadow: rgb(19, 19, 19) 0px 3px 3px 0px;
+}
+
+#box1 {
+    float: none;
+    height: 400px;
+    margin-left: auto;
+    margin-top: 200px;
+    clear: none;
+    width: 700px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.811765);
+    margin-right: auto;
+    box-shadow: rgb(0, 0, 0) 0px 2px 3px 0px;
+}
+
+#ThreeJS {
+    float: left;
+    height: 381px;
+    margin-left: 30.500000999999997px;
+    margin-top: 10px;
+    clear: none;
+    width: 317.14px;
+}
+
+#box5 {
+    float: left;
+    height: 53px;
+    clear: none;
+    width: 46.935268%;
+    position: absolute;
+    top: 307px;
+    left: 55.779018%;
+    background-color: rgb(57, 76, 117);
+    box-shadow: rgb(0, 0, 0) -1px 2px 3px 0px;
+}
+
+#text3 {
+    float: left;
+    font-size: 1.3em;
+    width: 275.55px;
+    height: 24px;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 31.546873809375px;
+    margin-top: 13px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(236, 236, 236);
+}
+
+#text {
+    float: left;
+    font-size: 2.5em;
+    width: 45.675413%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 30.612245%;
+    margin-top: 34px;
+    clear: none;
+    min-height: 48px;
+    color: rgb(213, 213, 213);
+}
+
+#text1 {
+    float: left;
+    font-size: 2.3em;
+    width: 288px;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 36.859375px;
+    margin-top: 29px;
+    clear: none;
+    min-height: 45px;
+    color: rgb(213, 213, 213);
+}
+
+#box4 {
+    float: left;
+    height: 53px;
+    clear: none;
+    width: 46.935268%;
+    position: absolute;
+    top: 223px;
+    left: 55.779018%;
+    box-shadow: rgb(0, 0, 0) -1px 2px 3px 0px;
+    background-color: rgb(57, 76, 117);
+}
+
+#text2 {
+    float: left;
+    font-size: 1.3em;
+    width: 275.55px;
+    height: 24px;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 31.546873809375px;
+    margin-top: 13px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(236, 236, 236);
+}
+
+#box2 {
+    float: left;
+    height: 40px;
+    margin-left: -41.142857%;
+    margin-top: 93px;
+    clear: none;
+    width: 40px;
+    background-color: rgb(159, 159, 159);
+    box-shadow: rgb(255, 255, 255) 0px 0px 3px 2px;
+}
+
+#box3 {
+    float: left;
+    height: 40px;
+    margin-left: -32.098214%;
+    margin-top: 93px;
+    clear: none;
+    width: 5.714285%;
+    box-shadow: rgb(228, 228, 228) 0px 0px 3px 2px;
+    background-color: rgb(54, 54, 54);
+    margin-right: 0%;
+}
+
+#box2:hover {opacity: 0.8;cursor:pointer;}#box3:hover {opacity: 0.8;cursor:pointer;}

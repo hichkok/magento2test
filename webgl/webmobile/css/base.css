@@ -1,0 +1,85 @@
+body 
+{
+	font-family: Monospace;
+	font-weight: bold;
+	background-color: #ccccff;
+	margin: 0px;
+	overflow: hidden;
+}
+
+.classname {
+    -moz-box-shadow:inset 0px 1px 6px 0px #cfcfcd;
+    -webkit-box-shadow:inset 0px 1px 6px 0px #cfcfcd;
+    box-shadow:inset 0px 1px 6px 0px #cfcfcd;
+    background-color:#000000;
+    -webkit-border-top-left-radius:0px;
+    -moz-border-radius-topleft:0px;
+    border-top-left-radius:0px;
+    -webkit-border-top-right-radius:0px;
+    -moz-border-radius-topright:0px;
+    border-top-right-radius:0px;
+    -webkit-border-bottom-right-radius:19px;
+    -moz-border-radius-bottomright:19px;
+    border-bottom-right-radius:19px;
+    -webkit-border-bottom-left-radius:19px;
+    -moz-border-radius-bottomleft:19px;
+    border-bottom-left-radius:19px;
+    text-indent:0;
+    border:1px solid #ccc4b7;
+    display:inline-block;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    height:36px;
+    line-height:36px;
+    width:178px;
+    text-decoration:none;
+    text-align:center;
+    cursor: pointer;
+    cursor: hand;
+}.classname:hover {
+     background-color:#1c1b1a;
+ }.classname:active {
+      position:relative;
+      top:1px;
+  }
+.classname2 {
+    -moz-box-shadow:inset 0px 1px 6px 0px #cfcfcd;
+    -webkit-box-shadow:inset 0px 1px 6px 0px #cfcfcd;
+    box-shadow:inset 0px 1px 6px 0px #cfcfcd;
+    background-color:#000000;
+    -webkit-border-top-left-radius:19px;
+    -moz-border-radius-topleft:19px;
+    border-top-left-radius:19px;
+    -webkit-border-top-right-radius:19px;
+    -moz-border-radius-topright:19px;
+    border-top-right-radius:19px;
+    -webkit-border-bottom-right-radius:0px;
+    -moz-border-radius-bottomright:0px;
+    border-bottom-right-radius:0px;
+    -webkit-border-bottom-left-radius:0px;
+    -moz-border-radius-bottomleft:0px;
+    border-bottom-left-radius:0px;
+    text-indent:0;
+    border:1px solid #ccc4b7;
+    display:inline-block;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    height:36px;
+    line-height:36px;
+    width:178px;
+    text-decoration:none;
+    text-align:center;
+    cursor: pointer;
+    cursor: hand;
+}.classname2:hover {
+     background-color:#1c1b1a;
+ }.classname2:active {
+      position:relative;
+      top:1px;
+  }

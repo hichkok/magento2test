@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Language</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+        <script type="text/javascript" charset="utf-8" src="main_menu_edgePreload.js"></script>
+
+        <style>
+
+            #ThreeJS {z-index:14;position: absolute; left:0px; top:0px;overflow:hidden;}
+            #Stage {z-index:15;position: absolute;display:none}
+            body{margin: 0px;overflow: hidden;}
+
+        </style>
+
+    </head>
+    <body>
+
+        <div id="ThreeJS"></div>
+
+        <div id="Stage" class="main_menu">
+        </div>
+
+        <script src="three.min.js"></script>
+
+        <script>
+            var mainScript = new PANDP.MainScript();
+            mainScript.initialize();
+        </script>
+
+    </body>
+</html>

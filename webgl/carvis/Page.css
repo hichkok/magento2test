@@ -1,0 +1,233 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: auto;
+    position: fixed;
+}
+
+#box {
+    float: left;
+    height: 101px;
+    clear: none;
+    width: 200.28125px;
+    background-color: rgba(0, 0, 0, 0.701961);
+    position: fixed;
+    top: 73px;
+    left: 0px;
+}
+
+#colorDiv {
+    float: left;
+    height: 23px;
+    clear: none;
+    width: 200.28125px;
+    border-width: thin;
+    border-top-color: rgb(4, 4, 4);
+    border-top-style: none;
+    border-bottom-color: rgb(4, 4, 4);
+    border-bottom-style: solid;
+    position: fixed;
+    top: 81px;
+    left: 0%;
+    max-width: none;
+}
+
+#text {
+    float: left;
+    font-size: 1em;
+    width: 53.09375px;
+    height: auto;
+    text-align: right;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    min-height: 23px;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-family: 'ms serif';
+    max-width: none;
+}
+
+#imageOrange {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    max-width: none;
+    cursor : pointer;
+}
+
+#imageGray {
+    float: left;
+    width: 20px;
+    max-width: 100%;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    cursor : pointer;
+}
+
+#imageRed {
+    float: left;
+    width: 20px;
+    max-width: 100%;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+    cursor : pointer;
+}
+
+#imageBlack {
+    float: left;
+    width: 20px;
+    max-width: 100%;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    margin-right: 0%;
+    cursor : pointer;
+}
+
+#viewDiv {
+    float: left;
+    height: 23px;
+    clear: both;
+    width: 200.28125px;
+    border-width: thin;
+    border-top-color: rgb(4, 4, 4);
+    border-top-style: none;
+    border-bottom-color: rgb(4, 4, 4);
+    border-bottom-style: solid;
+    position: fixed;
+    top: 116px;
+    left: 0%;
+}
+
+#text1 {
+    float: left;
+    font-size: 1em;
+    width: 53.09375px;
+    height: auto;
+    text-align: right;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    min-height: 23px;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-family: 'ms serif';
+}
+
+#viewText {
+    float: left;
+    font-size: 1em;
+    width: 53.09375px;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 20px;
+    margin-top: 0px;
+    clear: none;
+    min-height: 23px;
+    color: rgb(255, 255, 255);
+    margin-right: 0%;
+    text-decoration: underline;
+    font-family: 'ms serif';
+    font-style: italic;
+    cursor : pointer;
+}
+
+#cameraDiv {
+    float: left;
+    height: 23px;
+    clear: both;
+    width: 201.171875px;
+    border-width: thin;
+    border-top-color: rgb(4, 4, 4);
+    border-top-style: none;
+    border-bottom-color: rgb(4, 4, 4);
+    border-bottom-style: none;
+    position: fixed;
+    top: 151px;
+    left: 0%;
+}
+
+#text3 {
+    float: left;
+    font-size: 1em;
+    width: 53.09375px;
+    height: auto;
+    text-align: right;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    min-height: 23px;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-family: 'ms serif';
+}
+
+#cameraText {
+    float: left;
+    font-size: 1em;
+    width: 53.09375px;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 20px;
+    margin-top: 0px;
+    clear: none;
+    min-height: 23px;
+    color: rgb(255, 255, 255);
+    margin-right: 0%;
+    text-decoration: underline;
+    font-family: 'ms serif';
+    font-style: italic;
+    cursor : pointer;
+}
+
+#imageOrange:hover {
+    opacity: 0.8;
+}
+
+#imageGray:hover {
+    opacity: 0.8;
+}
+
+#imageRed:hover {
+    opacity: 0.8;
+}
+
+#imageBlack:hover {
+    opacity: 0.8;
+}
+
+#viewText:hover {
+    opacity: 0.8;
+}
+
+#cameraText:hover {
+    opacity: 0.8;
+}
+

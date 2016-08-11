@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Template (Three.js)</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <link rel=stylesheet href="css/base.css"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+        <script type="text/javascript" charset="utf-8" src="Models_edgePreload.js"></script>
+        <script type="text/javascript" charset="utf-8" src="Plans_edgePreload.js"></script>
+        <script type="text/javascript" charset="utf-8" src="Loading_edgePreload.js"></script>
+
+
+        <style>
+
+            #StageParent {  z-index:14; left:64.5%; top:10%; position: absolute; width:34%; height: 87%; display: none;}
+            #Stage {  z-index:14;}
+            #StageParentPlans { z-index:14; left:19%; top:14%; position: absolute; width:62%; height: 78%; display: none;}
+            #StageParentContacts { z-index:14; left:19%; top:14%; position: absolute; width:62%; height: 78%; display: none;}
+            #StagePlans {  z-index:14;}
+            #StageContacts {  z-index:14;line-height: 0.1;opacity: 0.8;font-family: "Cambria", serif;}
+            #StageParentLoading { background:#ffffff;z-index:15; left:0%; top:0%; position: absolute; width:100%;
+                height: 100%; opacity: 1; display: block;}
+            #StageLoading { z-index:15;}
+            #Main_Menu {z-index:14; position: absolute; left:0px; top:0px; width:100%; height: 7%; opacity: 0.7; text-align:center;}
+            #Open_Menu { position: absolute;z-index:14; left:2%; top:90%; width:10%; height: 7%; opacity: 0.7; text-align:center;}
+            #Back_Button { position: absolute;z-index:14; left:2%; top:8%; width:10%; height: 7%; opacity: 0.7; text-align:center;}
+            #ThreeJS {z-index:14;position: absolute; left:0px; top:0px;}
+            #OurContacts {font-size: 80px;padding-top: 50px;color: #345895;}
+            #Mail {font-size: 60px;color: #aaaaaa;}
+            body{margin: 0px;overflow: hidden;}
+
+        </style>
+        <!--Adobe Edge Runtime End-->
+
+    </head>
+<body>
+
+<div id="ThreeJS" ></div>
+
+<div id="StageParent">
+    <div id="Stage" class="Model_Description" ></div>
+</div>
+
+<div id="StageParentPlans">
+    <div id="StagePlans" class="Plans" ></div>
+</div>
+
+<div id="StageParentLoading">
+    <div id="StageLoading" class="Loading" ></div>
+</div>
+
+<div id="StageParentContacts">
+    <div id="StageContacts" ><p id="OurContacts">Our contacts:</p><br><p id="Mail">&nbsp;&nbsp;&nbsp;sales@pandp-ind.com</p></div>
+</div>
+
+<div id="Main_Menu" >
+    <table  cellpadding="5" align="center"  >
+        <tr >
+            <td class="classname" id="phones">Mobile Phones</td>
+            <td class="classname" id="tablets">Tablets</td>
+            <td class="classname" id="laptops">Laptops</td>
+            <td class="classname" id="plans">Plans</td>
+            <td class="classname" id="contacts">Contacts</td>
+        </tr>
+    </table>
+</div>
+<div id="Open_Menu">
+    <table  cellpadding="5" width="70%" align="center" height="100%" >
+        <tr >
+            <td class="classname2" id="open">Open/Close</td>
+        </tr>
+    </table>
+</div>
+<div id="Back_Button">
+    <table  cellpadding="5" width="70%" align="center" height="100%" >
+        <tr >
+            <td class="classname" id="back">Back</td>
+        </tr>
+    </table>
+</div>
+
+<script src="three.min.js"></script>
+
+<script src="edge-animation-handler.js"></script>
+<script src="css/description_massive.js"></script>
+
+
+<script>
+var camera
+    var globalScript = new PANDP.GlobalScript();
+    globalScript.init();
+</script>
+
+</body>
+</html>
